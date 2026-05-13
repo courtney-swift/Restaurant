@@ -1,0 +1,67 @@
+/*global*/
+body{
+    background-color: beige;
+    font-family: arial;
+}
+a{
+    color: black;
+    text-decoration: none;
+    }
+
+    /*utilties*/
+    .failing{
+        font-weight: bold;
+    }
+    /*header*/
+    .site-init{
+        height: 120px;
+    }
+    .navigation-bar{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu-table,td,th{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    .menu-table th{
+width: 400px;
+height: 30px;
+background-color: gray;
+    }
+    .menu-table td{
+        padding: 10px;
+        text-align: center;
+        background-color: aliceblue;
+        
+
+    }
+    /*main*/
+    .dish-month-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .dish-month-img{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        
+
+    }
+    .dish-month-text{
+        width: 50%;
+       
+    }
+
+    .steak-img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .restaurant-title{
+        font-family: 'Franklin Gothic Medium';
+        font-size: 60px;
+        color: cornflowerblue;
+    }
