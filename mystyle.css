@@ -116,3 +116,22 @@ background-color:cornflowerblue;
         font-size: 60px;
         font-family: 'Franklin Gothic Medium';
     }
+    
+    /*TO-GO*/
+    .to-go-payment{
+    text-align: left;
+    margin-left: 30%;
+    margin-right: 750px;
+    margin-top: 50%;
+    padding: 150px;
+    padding-bottom: 1%;
+    background-color: cornflowerblue;
+    border-color: black;
+    border-radius: 40px;
+
+    }
+.logo{
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 20%;
+}
