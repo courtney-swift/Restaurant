@@ -1,0 +1,51 @@
+/*Desktop View*/
+html{
+    font-size: 16px;
+}
+body{
+    font-family: arial;
+}
+header{
+    background-color: lightblue;
+    width: 100%;
+    text-align: center;
+    height: 20vh;
+}
+div{
+background-color: pink;
+width: 80%;
+margin: 60px 0;
+height: 30vh;
+}
+p{
+    width: 50%;
+    background-color: lightgrey;
+}
+
+/*tablet view*/
+@media((min-width:481px) and (max-width:768px)){
+html{
+    font-size: 14px
+}
+header{
+    background-color: darkblue;
+}
+div{
+    background-color: purple;
+}
+}
+
+/* phone view*/
+@media((max-width:600px)){
+    html{
+        font-size: 12px;
+    }
+    header{
+        background-color: blue;
+    }
+    div{
+        width: 100%;
+    }
+    p{ width: 100%;
+    }
+}

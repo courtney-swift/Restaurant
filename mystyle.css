@@ -20,7 +20,10 @@ a{
         display: flex;
         justify-content: space-around;
     }
-
+    .bars{
+        display: none;
+        width: 30px;
+    }
     .menu-table,td,th{
         border: 1px solid black;
         border-collapse: collapse;
@@ -29,30 +32,61 @@ a{
     .menu-table th{
 width: 400px;
 height: 30px;
-background-color: gray;
+background-color:cornflowerblue;
     }
     .menu-table td{
         padding: 10px;
         text-align: center;
         background-color: aliceblue;
-        
-
     }
-    /*main*/
+
+    /*main: desktop view*/
     .dish-month-container{
         display: flex;
         justify-content: space-between;
     }
     .dish-month-img{
         width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        
-
+        margin-top: 10%;
     }
+
     .dish-month-text{
         width: 50%;
        
+    }
+    /*mobile view*/
+    @media(max-width:768px){
+        .bars{
+        display: inline-block;
+        width: 30px;
+        }
+        .dish-month-container{
+            flex-direction: column;
+        }
+        .dish-month-img{
+            width: 100%;
+        }
+        .dish-month-text{
+            width: 100%;
+            font-size: 100%;
+        }
+    }
+
+    .all-dishes-container{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 50%;
+    }
+    .dish-container{
+        background-color: cornflowerblue;
+        width: 30%;
+    }
+    @media(max-width:768px){
+        .all-dishes-container{
+            flex-direction: column;
+        }
     }
 
     .steak-img{
@@ -64,4 +98,21 @@ background-color: gray;
         font-family: 'Franklin Gothic Medium';
         font-size: 60px;
         color: cornflowerblue;
+    }
+    /*Top Title*/
+    .top-title{
+        margin-top: 3%;
+        text-align: center;
+        color: cornflowerblue;
+        font-size: 60px;
+        font-family: 'Franklin Gothic Medium';
+    }
+
+    /*BBQ Title*/
+    .BBQ-title{
+        margin-top: 20%;
+        text-align: center;
+        color: cornflowerblue;
+        font-size: 60px;
+        font-family: 'Franklin Gothic Medium';
     }
